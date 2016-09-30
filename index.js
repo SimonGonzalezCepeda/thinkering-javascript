@@ -1,13 +1,15 @@
 // VARIABLES GLOBALS: LA PESTE: XOCX
-$g= "";
+$name = 'Sergi';
+function fire(bool) {
+    console.log("Hola " + $name);
 
-function() {
-    $a="";
+    if (bool) {
+        foo = bar;
 
-    if (){
-        $l="";
+        console.log(foo);
     } else {
-
+        console.log(foo);
     }
-
 }
+
+fire(true);
