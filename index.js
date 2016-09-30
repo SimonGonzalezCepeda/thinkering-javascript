@@ -1,37 +1,20 @@
-//NAMESPACES
+// OOP : Object Oriented Programing
 
-//VECTOR
+//Object Literal Notation
 
-var Person = [
+var Person = {
+    name : "Sylver",
 
-    {
-        'name' : 'Sylver',
-        'sn1'  : 'Shine',
-        'age'  : 28
+    constructor: function(){
+
     },
-    {
-        'name' : 'Mimi',
-        'sn1'  : 'Pink',
-        'age'  : 26
+    hello: function(){
+        return 'Hi '+ this.name + '!';
+    },
+    bye: function(){
+        return 'Bye ' + this.name + '!';
     }
-
-];
-
-
-//JSON
-
-var Persona = {
-    'name' : 'Sylver',
-    'sn1'  : 'Shine',
-    'age'  : 28
 };
 
-//JQuery $
-
-var Person = {};
-
-Person.name = 'Sylver';
-
-Person.hello = function() {
-    console.log("Hi! " + Person.name);
-};
+console.log(Person.name);
+console.log(Person.hello());
