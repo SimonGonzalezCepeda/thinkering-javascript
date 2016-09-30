@@ -1,20 +1,18 @@
 // OOP : Object Oriented Programing
 
-//Object Literal Notation
+//Module Pattern
 
-var Person = {
-    name : "Sylver",
+var Person = (function (){
+    name : "Sylver";
 
-    constructor: function(){
+    return {
+        hello: function () {
+            return 'Hi ' + this.name + '!';
+        },
+        bye: function () {
+            return 'Bye ' + this.name + '!';
+        }
+    };
+})();
 
-    },
-    hello: function(){
-        return 'Hi '+ this.name + '!';
-    },
-    bye: function(){
-        return 'Bye ' + this.name + '!';
-    }
-};
-
-console.log(Person.name);
-console.log(Person.hello());
+console.log(Person.bye());
