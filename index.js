@@ -1,18 +1,8 @@
-// OOP : Object Oriented Programing
+//JavaScript Tradicional
 
-//Module Pattern
+//DOM: Document Object Model
 
-var Person = (function (){
-    name : "Sylver";
-
-    return {
-        hello: function () {
-            return 'Hi ' + this.name + '!';
-        },
-        bye: function () {
-            return 'Bye ' + this.name + '!';
-        }
-    };
-})();
-
-console.log(Person.bye());
+hello = document.getElementById("hello");
+hello.style.display = "none";
+hello.innerHTML('Hola');
+console.log("Hello");
