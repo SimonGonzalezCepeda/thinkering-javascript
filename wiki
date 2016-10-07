@@ -1,0 +1,9 @@
+=== This ===
+
+This no es semrpe el mateix, ja que depen del seu context. Sempre fa referencia a un objecte, depen a qui, en [[PHP]] y [[Java]] fa referencia a l'objecte en el que estem, en [[JavaScript]] no. Per exemple, nomes en JavaScript pot funcionar la seguent linea.
+
+<pre class="brush:javascript">
+console.log(this);
+</pre>
+
+This fa referencia al objecte que utilitza la funcio en la que ens encontrem. En el cas de dalt, l'objecte que sempre s'executa per defecte sempre es windows.

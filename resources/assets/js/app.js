@@ -6,3 +6,4 @@ hello = document.getElementById("hello");
 hello.style.display = "none";
 hello.innerHTML('Hola');
 console.log("Hello");
+console.log(this);
