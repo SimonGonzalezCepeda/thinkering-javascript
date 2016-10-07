@@ -68,7 +68,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-eval("//JavaScript Tradicional\n\n//DOM: Document Object Model\n\nhello = document.getElementById(\"hello\");\nhello.style.display = \"none\";\nhello.innerHTML('Hola');\nconsole.log(\"Hello\");\nconsole.log(this);//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcz84YjY3Il0sInNvdXJjZXNDb250ZW50IjpbIi8vSmF2YVNjcmlwdCBUcmFkaWNpb25hbFxuXG4vL0RPTTogRG9jdW1lbnQgT2JqZWN0IE1vZGVsXG5cbmhlbGxvID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoXCJoZWxsb1wiKTtcbmhlbGxvLnN0eWxlLmRpc3BsYXkgPSBcIm5vbmVcIjtcbmhlbGxvLmlubmVySFRNTCgnSG9sYScpO1xuY29uc29sZS5sb2coXCJIZWxsb1wiKTtcbmNvbnNvbGUubG9nKHRoaXMpO1xuXG5cbi8vIFdFQlBBQ0sgRk9PVEVSIC8vXG4vLyByZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcyJdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTs7O0FBR0E7QUFDQTtBQUNBO0FBQ0E7Iiwic291cmNlUm9vdCI6IiJ9");
+eval("var Person = function (name) {\n    this.name = name;\n    console.log('Creant un objecte');\n}\n\nconsole.log(Persona);\n\nvar personeta = new Person();\n\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOlsid2VicGFjazovLy9yZXNvdXJjZXMvYXNzZXRzL2pzL2FwcC5qcz84YjY3Il0sInNvdXJjZXNDb250ZW50IjpbInZhciBQZXJzb24gPSBmdW5jdGlvbiAobmFtZSkge1xuICAgIHRoaXMubmFtZSA9IG5hbWU7XG4gICAgY29uc29sZS5sb2coJ0NyZWFudCB1biBvYmplY3RlJyk7XG59XG5cbmNvbnNvbGUubG9nKFBlcnNvbmEpO1xuXG52YXIgcGVyc29uZXRhID0gbmV3IFBlcnNvbigpO1xuXG5cblxuXG4vLyBXRUJQQUNLIEZPT1RFUiAvL1xuLy8gcmVzb3VyY2VzL2Fzc2V0cy9qcy9hcHAuanMiXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTsiLCJzb3VyY2VSb290IjoiIn0=");
 
 /***/ }
 /******/ ]);

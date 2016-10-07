@@ -1,9 +1,9 @@
-//JavaScript Tradicional
+var Person = function (name) {
+    this.name = name;
+    console.log('Creant un objecte');
+}
 
-//DOM: Document Object Model
+console.log(Persona);
 
-hello = document.getElementById("hello");
-hello.style.display = "none";
-hello.innerHTML('Hola');
-console.log("Hello");
-console.log(this);
+var personeta = new Person();
+
