@@ -3,7 +3,12 @@ var Person = function (name) {
     console.log('Creant un objecte');
 }
 
-console.log(Persona);
+Person.prototype.sayHello = function() {
+    console.log("Hello " + this.name);
+}
 
-var personeta = new Person();
+console.log(Person);
 
+var personeta = new Person("Sylver");
+
+console.log(personeta.sayHello());
